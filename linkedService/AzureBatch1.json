@@ -1,0 +1,16 @@
+{
+	"name": "AzureBatch1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBatch",
+		"typeProperties": {
+			"batchUri": "test",
+			"poolName": "test",
+			"accountName": "test",
+			"linkedServiceName": {
+				"referenceName": "AzureBlobStorage1",
+				"type": "LinkedServiceReference"
+			}
+		}
+	}
+}
