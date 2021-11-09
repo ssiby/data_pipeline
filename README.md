@@ -16,7 +16,10 @@ Le projet contient des functions python dans pipeline/data_pipeline_functions.py
   - BestJournalDurableActivity: function d'activité qui permet de retrouver le meilleur journal
 
   Remarques / suggestions :
+  
   1 - Pourquoi développer une API rest et déployer dans azure ACI si Azure durable function propose une entrée http et retour http ?
+  
   2 - Pour les functions d'activité azure, on pourrait prendre le retour de la DrugTreeDurableActivity comme entrée de la function BestJournalDurableActivity pour retouver le meilleur journal
+  
   3 - Coté DevOps / SRE : J'aurai provisionner les resources Azure avec un projet terraform ou Azure ARM ou Bicep
   
